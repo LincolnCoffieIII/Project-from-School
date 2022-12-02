@@ -1,0 +1,57 @@
+    *{
+      box-sizing: border-box;
+      border-radius: 11px;
+    }
+    .logo{
+      width: 120px;
+      height: 120px;
+      
+    }
+    .Navigation_Bar{
+      list-style: none;
+      background-color: rgb(44,70,44);
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 2%;
+      margin: -2%;
+    }
+    .Nav_Button{
+      background-color: rgb(244,146,75);
+      color: white;
+      border: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 16px;
+      padding-right: 16px;
+      border-radius: 11px;
+      cursor: pointer;
+      transition: opacity 0.15s  
+    }
+    .Nav_Button:hover{
+       opacity: 0.8;
+    }
+    .Nav_Button:active{
+      opacity: 0.5;
+    }
+    .Nav_Button a{
+      text-decoration:none;
+      color: white;
+    }
+    .Title-Brick {
+      padding: 3%;
+      font-size: 40px;
+      text-align: center;
+      color: black; 
+      transition: opacity 0.4s;
+      margin-top: 3%;
+    }
+    .Title-Brick p {
+      font-size: 20px;
+    }
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: rgb(244,146,75,30);
+      margin-top: 20px;
+    }
